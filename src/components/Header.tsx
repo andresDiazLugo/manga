@@ -11,7 +11,7 @@ export default function Header() {
 
             <ul className="flex flex-row gap-4 text-xs" >
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/about">About</Link></li>
+                {/* <li><Link href="/about">About</Link></li> */}
                 <li><Link href="/search">Search</Link></li>
             </ul >
         </nav>
